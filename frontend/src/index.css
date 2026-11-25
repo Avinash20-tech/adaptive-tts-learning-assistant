@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  @apply bg-lux-bg font-sans text-lux-text antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid #C8A96B;
+  outline-offset: 2px;
+}
